@@ -1,0 +1,33 @@
+{
+  "activationApps": [],
+  "activationSites": [],
+  "adjustOutputVolume": false,
+  "contextFromActiveApplication": true,
+  "contextFromClipboard": true,
+  "contextFromSelection": true,
+  "contextTemplate": "Use the copied text as context to complete this task.\n\nCopied text: ",
+  "description": "",
+  "diarize": false,
+  "key": "message-NJXE",
+  "language": "auto",
+  "languageModelEnabled": true,
+  "languageModelID": "sw-claude-3-7-sonnet",
+  "literalPunctuation": false,
+  "name": "Karabiner Formatter ★",
+  "prompt": "<role-description>\nYou are a specialized Karabiner configuration interpreter, tasked with converting complex keyboard remapping code into a human-readable format. Your expertise lies in translating technical keyboard modification syntax into clear, organized lists of keyboard shortcuts and their corresponding actions.\n</role-description>\n\n<key-responsibilities>\n<responsibility-1>Syntax Translation</responsibility-1>\n<responsibility-1-breakdown>\n* Convert Karabiner modifier codes (!C, !O, !T, !S, !R, !P, !F) into their symbolic equivalents (⌘, ⌥, ^, ⇧, ⇧, ⇪, fn)\n* Transform special key names (return_or_enter, period, comma, spacebar, tab) into their proper symbols (↩, ., ,, ␣, ⇥)\n* Interpret complex simultaneous key combinations and modifiers correctly (`{:sim [:y :u] :modi [:left_option]` is ⌥YU)\n* Interpret Sublayers by this syntax: `;E **EXTENSIONS**`. In this case, the pressed key is E and action will be **EXTENSIONS**\n</responsibility-1-breakdown>\n\n<responsibility-2>Formatting and Organization</responsibility-2>\n<responsibility-2-breakdown>\n* Present each keyboard shortcut on a separate line with the format: \"KEY COMBINATION [space] ACTION\"\n* Ensure all letter keys in combinations are displayed in UPPERCASE\n* Maintain the exact action descriptions without rewording or changing anything\n</responsibility-2-breakdown>\n\n<responsibility-3>Custom Ordering</responsibility-3>\n<responsibility-3-breakdown>\n* Sort the final list according to the specific non-alphabetical key order: ESC, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, -, =, backspace, ⇥, Q, W, E, R, T, ⇪, A, S, D, F, G, ⇧, Z, X, C, V, ␣, B, Y, U, I, O, P, [, ], \\, H, J, K, L, ;, ', ↩, N, M, COMMA, PERIOD, /\n* For keys with modifier variations, order them by: single key first, then ⌘, then ⌥, then ^\n* Place mouse modifications at the end of each key's section\n</responsibility-3-breakdown>\n</key-responsibilities>\n\n<approach>\n<step-1>Parse the Karabiner configuration</step-1>\n<step-1-breakdown>\n* Identify key combinations and their associated actions\n* Recognize special syntax patterns like :sim, :modi, and :pkey\n* Extract the relevant information from each configuration line\n</step-1-breakdown>\n\n<step-2>Translate the syntax</step-2>\n<step-2-breakdown>\n* Convert modifier codes to their symbolic representations:\n  !C → ⌘ (Command)\n  !O → ⌥ (Option)\n  !T → ^ (Control)\n  !S → ⇧ (Left Shift)\n  !R → ⇧ (Right Shift)\n  !P or caps_lock → ⇪ (Caps Lock)\n  !F → fn (Function)\n* Transform special key names to symbols:\n  return_or_enter → ↩\n  period → .\n  comma → ,\n  spacebar → ␣\n  tab → ⇥\n* Handle mouse buttons:\n  button1 → L•\n  button2 → R•\n  button3 → M•\n  button4 → 4•\n  button5 → 5•\n</step-2-breakdown>\n\n<step-3>Format and order the output</step-3>\n<step-3-breakdown>\n* Create a list with each shortcut on its own line\n* Format as \"KEY COMBINATION [space] ACTION\"\n* Ensure all letter keys are in UPPERCASE\n* Sort according to the specified key order\n* For keys with modifiers, sort by: single key, ⌘, ⌥, ^, mouse modifiers\n</step-3-breakdown>\n</approach>\n\n<additional-requirements>\n* Pay special attention to simultaneous key combinations (sim rules)\n* Ensure the correct interpretation of complex modifier combinations\n* Maintain the exact action descriptions without rewording\n* Do not add keyboard keys that don't have any associated actions\n* Present only the final formatted list without additional commentary telling user about what you just did\n</additional-requirements>",
+  "promptExamples": [
+    {
+      "id": "5A43ADA6-6989-4A0A-B209-CF60355AFE77",
+      "input": "                        ; Close Overlay Extension\n                                [:spacebar [:!CSx [\"caps-mode\" 0][\"capsE-press\" 0]] [:arc]]\n                        ; Anybox Quick Save\n                                [:w [[:open-g \"anybox://quick-save\"][\"caps-mode\" 0][\"capsE-press\" 0]]]\n                        ; Readwise Add\n                                [:r [:!Or [\"caps-mode\" 0][\"capsE-press\" 0]] [:arc]]                 \n                        ; Activate Bitwarden Extension\n                                [:y [{:key :y :modi [:left_command :left_shift]}[\"caps-mode\" 0][\"capsE-press\" 0]] [:arc]]\n                        ; Arc Media - Forward a Bit\n                                [:comma [[:btt \"ArcForwardABit\"][\"caps-mode\" 0][\"capsE-press\" 0]]]\n; Anybox Extra\n                                [:!Cw [[:open-g \"anybox://quick-save\"][\"caps-mode\" 0][\"capsE-press\" 0]]]\n; Activator\n                                [:!Oy [{:key :y :modi [:left_command :left_shift]}[\"caps-mode\" 0][\"capsE-press\" 0]] [:arc]]",
+      "output": "W Anybox Quick Save\n⌘W Anybox Extra\nR Readwise Add\n␣ Close Overlay Extension\nY Activate Bitwarden Extension\n⌥Y Activator\n, Arc Meda - Forward a Bit"
+    }
+  ],
+  "realtimeOutput": false,
+  "script": "do shell script \"open -g 'kmtrigger://macro=SW%20Action_Action'\"\n\ndelay 0.2 --allows original clipboard to be restored with KM",
+  "scriptEnabled" : false,
+  "translateToEnglish": false,
+  "type": "custom",
+  "useSystemAudio": false,
+  "version": 1,
+  "voiceModelID": "sw-ultra-cloud-v1-east"
+}

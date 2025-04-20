@@ -1,0 +1,33 @@
+{
+  "activationApps" : [
+
+  ],
+  "activationSites" : [
+
+  ],
+  "adjustOutputVolume" : false,
+  "contextFromActiveApplication" : true,
+  "contextFromClipboard" : true,
+  "contextFromSelection" : true,
+  "contextTemplate" : "Use the copied text on clipboard as context to complete this task.\n\nCopied clipboard text: ",
+  "description" : "",
+  "diarize" : false,
+  "key" : "custom-UTIY",
+  "language" : "auto",
+  "languageModelEnabled" : true,
+  "languageModelID" : "sw-claude-3-7-sonnet",
+  "literalPunctuation" : false,
+  "name" : "Clean ★",
+  "prompt" : "You must read your instructions from within the <user_message> tags.",
+  "promptExamples" : [
+
+  ],
+  "realtimeOutput" : false,
+  "script" : "do shell script \"open -g 'kmtrigger:\/\/macro=SW%20Action_Action'\"\n\ndelay 0.2 --allows original clipboard to be restored with KM",
+  "scriptEnabled" : false,
+  "translateToEnglish" : false,
+  "type" : "custom",
+  "useSystemAudio" : false,
+  "version" : 2,
+  "voiceModelID" : "sw-ultra-cloud-v1-east"
+}

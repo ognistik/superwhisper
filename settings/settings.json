@@ -1,0 +1,66 @@
+{
+  "replacements" : [
+    {
+      "id" : "Shoujo",
+      "original" : "Shoujo",
+      "with" : "Xuzhou"
+    },
+    {
+      "id" : "Sonic",
+      "original" : "Sonic",
+      "with" : "Sunny"
+    },
+    {
+      "id" : "Shujo",
+      "original" : "Shujo",
+      "with" : "Xuzhou"
+    },
+    {
+      "id" : "Shuyo",
+      "original" : "Shuyo",
+      "with" : "Xuzhou"
+    },
+    {
+      "id" : "abwiss",
+      "original" : "abwiss",
+      "with" : "abuis"
+    },
+    {
+      "id" : "abwis",
+      "original" : "abwis",
+      "with" : "abuis"
+    },
+    {
+      "id" : "Suzhou",
+      "original" : "Suzhou",
+      "with" : "Xuzhou"
+    },
+    {
+      "id" : "Sony",
+      "original" : "Sony",
+      "with" : "Sunny"
+    },
+    {
+      "id" : "abue",
+      "original" : "abue",
+      "with" : "abuis"
+    },
+    {
+      "id" : "abu",
+      "original" : "abu",
+      "with" : "abuis"
+    },
+    {
+      "id" : "Sonny",
+      "original" : "Sonny",
+      "with" : "Sunny"
+    }
+  ],
+  "vocabulary" : [
+    "Superwhisper",
+    "Abuis",
+    "Abuelito",
+    "Sunny",
+    "Eunice"
+  ]
+}

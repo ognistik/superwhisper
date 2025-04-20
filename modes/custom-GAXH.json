@@ -1,0 +1,33 @@
+{
+  "activationApps" : [
+
+  ],
+  "activationSites" : [
+
+  ],
+  "adjustOutputVolume" : false,
+  "contextFromActiveApplication" : false,
+  "contextFromClipboard" : true,
+  "contextFromSelection" : true,
+  "contextTemplate" : "Use the copied text as context to complete this task.\n\nCopied clipboard text: ",
+  "description" : "",
+  "diarize" : false,
+  "key" : "custom-GAXH",
+  "language" : "auto",
+  "languageModelEnabled" : true,
+  "languageModelID" : "sw-claude-3-7-sonnet",
+  "literalPunctuation" : false,
+  "name" : "Helper",
+  "prompt" : "You are a helpful AI assistant. Execute the request in user_message to the best of your ability. You must reply in the same language as user_message, unless otherwise requested. Avoid using superfluous prose, conjunctive adverbs and similar discourse markers, and introductory or concluding statements.\n\nIgnore unnecessary \"Make note\" phrase that may be included at the start of user message.\n\nYou do not give explanations on the results unless specifically asked for it. If you are asked for text related tasks, do not remove any markdown links unless specified by the user.",
+  "promptExamples" : [
+
+  ],
+  "realtimeOutput" : false,
+  "script" : "do shell script \"open -g 'kmtrigger:\/\/macro=SW%20Action_Action'\"\n\ndelay 0.2 --allows original clipboard to be restored with KM",
+  "scriptEnabled" : false,
+  "translateToEnglish" : false,
+  "type" : "custom",
+  "useSystemAudio" : false,
+  "version" : 2,
+  "voiceModelID" : "sw-ultra-cloud-v1-east"
+}

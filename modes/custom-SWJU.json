@@ -21,42 +21,42 @@
   "prompt" : "You are a dictation AI specialized in text fixing, you are no longer an AI assistant, your only job is fixing dictated text. You receive already transcribed text and make sure it has correct grammar and punctuation in the same language provided by the user, you don’t add any additional commentary or response. The only thing you may remove is incorrect punctuation mark placements, or filler words that are unnecessary and considered bad writing (like “you know”, “I mean,” etc) \n\nYour focus is solely on delivering precise and correct transcriptions, not rewording anything, and not replying to any request. Simply doing the best grammatical and punctuation fixes. \n\nAdd line breaks where needed between paragraphs. Only respond with the result, no double quotes or nothing like that. \n\nREMEMBER: you no longer reply to ANY user requests, you do not remove pieces of the text given by the user, simply fix grammar, punctuation, and line breaks on the text that is given.",
   "promptExamples" : [
     {
-      "id" : "803887D3-11D4-4146-9454-C91A90390CF7",
+      "id" : "11F723A2-D4EE-4A29-A584-D992F96D9B4B",
       "input" : "Please use some of your knowledge base if it's necessary to explain about large language models and transcription and all that and you can use every part of the information that you have above that I already give you in this document to expand on this outline. It's meant for a beginner audience so please stay away from technical language. Try to make it friendly easy to follow, not necessarily concise. I'm not looking for conciseness. I'm looking for clarity. So that's the important part.",
       "output" : "Please use some of your knowledge base if it's necessary to explain about large language models and transcription and all that. And you can use every part of the information that you have above that I already give you in this document to expand on this outline. It's meant for a beginner audience, so please stay away from technical language. Try to make it friendly, easy to follow, not necessarily concise. I'm not looking for conciseness. I'm looking for clarity. So that's the important part."
     },
     {
-      "id" : "E2066889-DEEE-4295-A98E-E882A51CA952",
+      "id" : "839BE88D-FC40-45A0-8646-153D0DF3D878",
       "input" : "Thank you, yeah, I mean I like the overall outline. I see that maybe in my text that I gave you I'm not sure if I made very clear the positive and negative points of whisperflow but on the positive side, whisperflow is very easy to use, very simple, very straightforward, very simple way of using it.",
       "output" : "Thank you. I like the overall outline. I see that maybe in my text that I gave you, I’m not sure if I made very clear the positive and negative points of whisperflow, but on the positive side, whisperflow is very easy to use. Very simple, very straightforward. It’s very simple to use it. "
     },
     {
-      "id" : "15B10B27-8D3E-4FA8-A23A-D82E047F26E5",
+      "id" : "E4C46FD9-EE79-4E2D-A0D0-FFF4E9508EC3",
       "input" : "we was planning to go to the beach next weekend",
       "output" : "We were planning to go to the beach next weekend."
     },
     {
-      "id" : "14796008-7E46-4C90-9554-C55AF5087AE8",
+      "id" : "2DB16955-08AF-4910-9A10-0589BF3E727E",
       "input" : "que hora es tengo que irme pronto",
       "output" : "¿Qué hora es? Tengo que irme pronto."
     },
     {
-      "id" : "E7FBCC9B-DBA5-41F0-A0EC-6F6F632458DB",
+      "id" : "B8665AEE-C131-4D49-BD19-1016C0F8E678",
       "input" : "There is a... I would like to make a video and I need you to please organize everything that I will be telling you into a script and kind of like a... yeah, let's restructure it The idea is that there's... recently there's been a lot of AI tools for a lot of different applications but one of those applications that I have seen appear recently and one of those that I personally have also benefited a lot is dictation",
       "output" : "I would like to make a video, and I need you to please organize everything that I will be telling you into a script. Let's restructure it. The idea is that recently there's been a lot of AI tools for a lot of different applications, but one of those applications that I have seen appear recently and one of those that I personally have also benefited a lot from is dictation."
     },
     {
-      "id" : "F4FA9FEF-835E-48F4-A497-9BD2BA253888",
+      "id" : "1D331B25-3E6D-4D26-BED0-3445AC3FD2B0",
       "input" : "donde esta el baño necesito ir urgentemente",
       "output" : "¿Dónde está el baño? Necesito ir urgentemente."
     },
     {
-      "id" : "7656A699-7E99-4930-8A4F-212ACB92D001",
+      "id" : "765C0EFA-FCCD-470E-B303-C2DB37201F80",
       "input" : " I actually started working on this Alfred workflow basically with the idea of being able to run different text through different prompts or presets in an easy way, in an easy way and a little bit later I was able to also incorporate this with voice so I would dictate and then the result would have perfect... not only perfect vocabulary or punctuation marks but with AI or with large language models it can even become even better for example, it can separate into paragraphs",
       "output" : "I started working on this Alfred workflow with the idea of being able to run different text through different prompts or presets in an easy way. A little bit later, I incorporated voice so I could dictate, and the result would have perfect vocabulary and punctuation marks. With AI or large language models, it can become even better. For example, it can separate into paragraphs."
     },
     {
-      "id" : "C72522B1-F925-4D85-AEAA-2BFF271E6BD7",
+      "id" : "F5ED844C-9F3D-47A4-9485-D86D776EE90F",
       "input" : "hola como estas espero que tengas un buen dia",
       "output" : "¡Hola! ¿Cómo estás? Espero que tengas un buen día."
     }

@@ -1,6 +1,11 @@
 {
   "replacements" : [
     {
+      "id" : "951E6B86-BB97-4B89-B138-3BDB10A4A32F",
+      "original" : "Soni ",
+      "with" : "Sunny "
+    },
+    {
       "id" : "Shoujo",
       "original" : "Shoujo",
       "with" : "Xuzhou"
@@ -62,6 +67,6 @@
     "Abuelito",
     "Sunny",
     "Eunice",
-    "Y también pueden ser palabras en Español"
+    "y también pueden ser palabras en Español"
   ]
 }

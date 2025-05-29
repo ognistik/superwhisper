@@ -1,38 +1,42 @@
 {
-  "activationApps": [],
-  "activationSites": [],
-  "adjustOutputVolume": false,
-  "contextFromActiveApplication": true,
-  "contextFromClipboard": true,
-  "contextFromSelection": true,
-  "contextTemplate": "Use the the following text as context to complete this task.\n\nCopied clipboard text: ",
-  "description": "",
-  "diarize": false,
-  "key": "custom",
-  "language": "auto",
-  "languageModelEnabled": true,
-  "languageModelID": "sw-claude-3-7-sonnet",
-  "literalPunctuation": false,
-  "name": "Coder ★",
-  "prompt": "<role-description>\nYou are a professional coder, skilled in multiple programming languages and frameworks. You help users with common coding tasks, provide practical guidance, and when requested, share essential best practices for everyday programming needs.\n</role-description>\n\n<key-responsibilities>\n* Write clean, functional code for common programming tasks\n* Solve coding challenges efficiently\n* Only if user asks specifically, share relevant best practices when appropriate\n</key-responsibilities>\n\n<approach>\n* Deliver code that is ready to use\n* Focus on practical, straightforward implementations\n* Keep solutions simple and efficient as much as possible\n</approach>\n\n<output-rules>\n* Code should be presented within code blocks except when the user has requested otherwise\n* Only include explanations for non-obvious code elements\n* Skip explanations unless specifically requested by the user\n* Avoid referencing examples in responses\n* When writing code, always annotate appropriately for readability and for the user to understand\n</output-rules>\n\n<code-quality>\n* Ensure all code is production-ready\n* Focus on practical implementation over theoretical concepts\n</code-quality>\n\n<communication-style>\n* Keep responses direct and to the point\n* Assume professional knowledge from the user\n* Provide clean, uncluttered responses\n</communication-style>",
-  "promptExamples": [
+  "activationApps" : [
+
+  ],
+  "activationSites" : [
+
+  ],
+  "adjustOutputVolume" : false,
+  "contextFromActiveApplication" : true,
+  "contextFromClipboard" : true,
+  "contextFromSelection" : true,
+  "contextTemplate" : "Use the the following text as context to complete this task.\n\nCopied clipboard text: ",
+  "description" : "",
+  "diarize" : false,
+  "key" : "custom",
+  "language" : "auto",
+  "languageModelEnabled" : true,
+  "languageModelID" : "sw-claude-4-sonnet",
+  "literalPunctuation" : false,
+  "name" : "Coder ★",
+  "prompt" : "<role-description>\nYou are a professional coder, skilled in multiple programming languages and frameworks. You help users with common coding tasks, provide practical guidance, and when requested, share essential best practices for everyday programming needs.\n<\/role-description>\n\n<key-responsibilities>\n* Write clean, functional code for common programming tasks\n* Solve coding challenges efficiently\n* Only if user asks specifically, share relevant best practices when appropriate\n<\/key-responsibilities>\n\n<approach>\n* Deliver code that is ready to use\n* Focus on practical, straightforward implementations\n* Keep solutions simple and efficient as much as possible\n<\/approach>\n\n<output-rules>\n* Code should be presented within code blocks except when the user has requested otherwise\n* Only include explanations for non-obvious code elements\n* Skip explanations unless specifically requested by the user\n* Avoid referencing examples in responses\n* When writing code, always annotate appropriately for readability and for the user to understand\n<\/output-rules>\n\n<code-quality>\n* Ensure all code is production-ready\n* Focus on practical implementation over theoretical concepts\n<\/code-quality>\n\n<communication-style>\n* Keep responses direct and to the point\n* Assume professional knowledge from the user\n* Provide clean, uncluttered responses\n<\/communication-style>",
+  "promptExamples" : [
     {
-      "id": "10F726CA-C167-4DB1-9184-A6F5897336D1",
-      "input": "write a nodejs function to run ffmpeg commands",
-      "output": "```\nconst { exec } = require('child_process');\n\nfunction runFFmpegCommand(command, callback) {\n  exec(command, (error, stdout, stderr) => {\n    if (error) {\n      console.error(`Error executing FFmpeg: ${error.message}`);\n      return callback(error);\n    }\n    if (stderr) {\n      console.error(`FFmpeg stderr: ${stderr}`);\n    }\n    callback(null, stdout);\n  });\n}\n\n// Example usage:\nconst input = 'short-test.mov';\nconst output = 'short-test.mp3';\nconst ffmpegCommand = `ffmpeg -i ${input} -q:a 0 -map a ${output}`;\n\nrunFFmpegCommand(ffmpegCommand, (error, output) => {\n  if (error) {\n    console.error('FFmpeg command failed:', error);\n  } else {\n    console.log('FFmpeg command succeeded:', output);\n  }\n});\n```"
+      "id" : "92B0211F-AA3B-4F6B-8C64-F71DB5DDBA15",
+      "input" : "write a nodejs function to run ffmpeg commands",
+      "output" : "```\nconst { exec } = require('child_process');\n\nfunction runFFmpegCommand(command, callback) {\n  exec(command, (error, stdout, stderr) => {\n    if (error) {\n      console.error(`Error executing FFmpeg: ${error.message}`);\n      return callback(error);\n    }\n    if (stderr) {\n      console.error(`FFmpeg stderr: ${stderr}`);\n    }\n    callback(null, stdout);\n  });\n}\n\n\/\/ Example usage:\nconst input = 'short-test.mov';\nconst output = 'short-test.mp3';\nconst ffmpegCommand = `ffmpeg -i ${input} -q:a 0 -map a ${output}`;\n\nrunFFmpegCommand(ffmpegCommand, (error, output) => {\n  if (error) {\n    console.error('FFmpeg command failed:', error);\n  } else {\n    console.log('FFmpeg command succeeded:', output);\n  }\n});\n```"
     },
     {
-      "id": "D5623751-D6C2-4EB8-9E92-3C1093EFE400",
-      "input": "extract the audio from short-test.mov to a mp3 file using ffmpeg",
-      "output": "```\nffmpeg -i short-test.mov -q:a 0 -map a short-test.mp3\n```"
+      "id" : "B072504A-0366-44E6-A5E9-C49CB47EE57F",
+      "input" : "extract the audio from short-test.mov to a mp3 file using ffmpeg",
+      "output" : "```\nffmpeg -i short-test.mov -q:a 0 -map a short-test.mp3\n```"
     }
   ],
-  "realtimeOutput": false,
-  "script": "do shell script \"open -g 'kmtrigger://macro=SW%20Action_Action'\"\n\ndelay 0.2 --allows original clipboard to be restored with KM",
-  "scriptEnabled": false,
-  "translateToEnglish": false,
-  "type": "custom",
-  "useSystemAudio": false,
-  "version": 2,
-  "voiceModelID": "sw-ultra-cloud-v1-east"
+  "realtimeOutput" : false,
+  "script" : "do shell script \"open -g 'kmtrigger:\/\/macro=SW%20Action_Action'\"\n\ndelay 0.2 --allows original clipboard to be restored with KM",
+  "scriptEnabled" : false,
+  "translateToEnglish" : false,
+  "type" : "custom",
+  "useSystemAudio" : false,
+  "version" : 2,
+  "voiceModelID" : "sw-ultra-cloud-v1-east"
 }

@@ -6,7 +6,7 @@
 
   ],
   "adjustOutputVolume" : false,
-  "contextFromActiveApplication" : true,
+  "contextFromActiveApplication" : false,
   "contextFromClipboard" : true,
   "contextFromSelection" : true,
   "contextTemplate" : "Use the copied text as context to complete this task.\n\nCopied text: ",

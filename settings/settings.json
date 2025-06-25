@@ -1,4 +1,28 @@
 {
+  "modeKeys" : [
+    "message-YAKV",
+    "custom",
+    "custom-AOCO",
+    "custom-FJUP",
+    "custom-GAXH",
+    "custom-GKID",
+    "custom-GNIX",
+    "custom-IQVV",
+    "custom-KPXW",
+    "custom-KYFL",
+    "custom-MYLA",
+    "custom-SWJG",
+    "custom-SWJU",
+    "custom-UTIY",
+    "custom-YYQY",
+    "message",
+    "message-GTOX",
+    "message-LGCA",
+    "message-MCQM",
+    "message-NJXE",
+    "message-RZXH",
+    "message-UBXR"
+  ],
   "replacements" : [
     {
       "id" : "Soni ",

@@ -1,6 +1,5 @@
 {
   "modeKeys" : [
-    "message-YAKV",
     "custom",
     "custom-AOCO",
     "custom-FJUP",
@@ -15,13 +14,13 @@
     "custom-SWJU",
     "custom-UTIY",
     "custom-YYQY",
-    "message",
     "message-GTOX",
-    "message-LGCA",
     "message-MCQM",
     "message-NJXE",
     "message-RZXH",
-    "message-UBXR"
+    "message-UBXR",
+    "message",
+    "message-XNGJ"
   ],
   "replacements" : [
     {

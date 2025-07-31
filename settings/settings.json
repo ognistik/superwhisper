@@ -1,26 +1,18 @@
 {
   "modeKeys" : [
-    "custom",
-    "custom-AOCO",
-    "custom-FJUP",
-    "custom-GAXH",
-    "custom-GKID",
-    "custom-GNIX",
-    "custom-IQVV",
-    "custom-KPXW",
-    "custom-KYFL",
-    "custom-MYLA",
-    "custom-SWJG",
     "custom-SWJU",
-    "custom-UTIY",
+    "custom-SWJG",
+    "custom-IQVV",
     "custom-YYQY",
-    "message-GTOX",
-    "message-MCQM",
-    "message-NJXE",
-    "message-RZXH",
-    "message-UBXR",
+    "custom-GAXH",
+    "custom-KYFL",
+    "emailer",
+    "custom",
     "message",
-    "message-XNGJ"
+    "message-RZXH",
+    "custom-AOCO",
+    "custom-GNIX",
+    "message-NJXE"
   ],
   "replacements" : [
     {

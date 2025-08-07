@@ -15,7 +15,7 @@
   "key" : "custom-GAXH",
   "language" : "auto",
   "languageModelEnabled" : true,
-  "languageModelID" : "sw-gpt-4.1",
+  "languageModelID" : "sw-gpt-5",
   "literalPunctuation" : false,
   "name" : "Helper",
   "pauseMediaPlayback" : false,

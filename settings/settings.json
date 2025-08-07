@@ -1,18 +1,15 @@
 {
   "modeKeys" : [
+    "custom-IQVV",
     "custom-SWJU",
     "custom-SWJG",
-    "custom-IQVV",
     "custom-YYQY",
     "custom-GAXH",
-    "custom-KYFL",
-    "emailer",
-    "custom",
     "message",
-    "message-RZXH",
-    "custom-AOCO",
     "custom-GNIX",
-    "message-NJXE"
+    "message-NJXE",
+    "message-RZXH",
+    "custom-AOCO"
   ],
   "replacements" : [
     {

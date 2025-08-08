@@ -25,7 +25,7 @@ for json_file in Path(modes_dir).glob('*.json'):
             data['voiceModelID'] = voice_model_id
             
             # Set language based on voice model ID
-            if voice_model_id == "sw-deepgram-nova-2":
+            if voice_model_id == "sw-deepgram-nova-3":
                 data['language'] = "multi"
             else:
                 data['language'] = "auto"

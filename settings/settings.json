@@ -1,15 +1,14 @@
 {
   "modeKeys" : [
-    "custom-IQVV",
     "custom-SWJU",
     "custom-SWJG",
+    "custom-IQVV",
     "custom-YYQY",
     "custom-GAXH",
-    "message",
     "custom-GNIX",
     "message-NJXE",
-    "message-RZXH",
-    "custom-AOCO"
+    "helper",
+    "message"
   ],
   "replacements" : [
     {
@@ -75,6 +74,11 @@
     {
       "id" : "5DA77922-FE9F-479D-8F5D-BCA2DA090265",
       "original" : "Microwhisper",
+      "with" : "Macrowhisper"
+    },
+    {
+      "id" : "710B68C1-F049-4B47-82FE-40A86A1B939B",
+      "original" : "Macro Whisper",
       "with" : "Macrowhisper"
     }
   ],

@@ -1,0 +1,34 @@
+{
+  "activationApps" : [
+
+  ],
+  "activationSites" : [
+
+  ],
+  "adjustOutputVolume" : false,
+  "contextFromActiveApplication" : true,
+  "contextFromClipboard" : true,
+  "contextFromSelection" : true,
+  "contextTemplate" : "Use the copied text as context to complete this task.\n\nCopied clipboard text: ",
+  "description" : "",
+  "diarize" : false,
+  "key" : "helper",
+  "language" : "auto",
+  "languageModelEnabled" : true,
+  "languageModelID" : "sw-gpt-5",
+  "literalPunctuation" : false,
+  "name" : "Context Chat ★",
+  "pauseMediaPlayback" : false,
+  "prompt" : "You are a helpful AI assistant. Application context has the history of your conversation. Respond to whatever you find in the user message OR the most recent message in the conversation to the best of your ability. You must reply in the same language as User Message, unless otherwise requested. Avoid using superfluous prose, conjunctive adverbs and similar discourse markers, and introductory or concluding statements.\n\nYou do not give explanations on the results unless specifically asked for it. If you are asked for text related tasks, do not remove any markdown links unless specified by the user.",
+  "promptExamples" : [
+
+  ],
+  "realtimeOutput" : false,
+  "script" : "do shell script \"open -g 'kmtrigger:\/\/macro=SW%20Action_Action'\"\n\ndelay 0.2 --allows original clipboard to be restored with KM",
+  "scriptEnabled" : false,
+  "translateToEnglish" : false,
+  "type" : "custom",
+  "useSystemAudio" : false,
+  "version" : 2,
+  "voiceModelID" : "sw-ultra-cloud-v1-east"
+}

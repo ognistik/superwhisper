@@ -1,14 +1,15 @@
 {
   "modeKeys" : [
+    "meeting",
+    "custom-IQVV",
     "custom-SWJU",
     "custom-SWJG",
-    "custom-IQVV",
     "custom-YYQY",
     "custom-GAXH",
+    "message",
     "custom-GNIX",
     "message-NJXE",
-    "helper",
-    "message"
+    "helper"
   ],
   "replacements" : [
     {
@@ -80,6 +81,16 @@
       "id" : "710B68C1-F049-4B47-82FE-40A86A1B939B",
       "original" : "Macro Whisper",
       "with" : "Macrowhisper"
+    },
+    {
+      "id" : "3BB5DBAC-B08F-44D7-B6B5-EA47742F81AA",
+      "original" : "Microwisper",
+      "with" : "Macrowhisper"
+    },
+    {
+      "id" : "D65AE639-1D9A-47D2-9419-50C16D330A95",
+      "original" : "Micro whisper",
+      "with" : "Macrowhisper"
     }
   ],
   "vocabulary" : [
@@ -89,6 +100,7 @@
     "abuis",
     "Eunice",
     "Sunny",
-    "Alter"
+    "Alter",
+    "Macrowhisper"
   ]
 }

@@ -15,7 +15,7 @@
   "key" : "helper",
   "language" : "auto",
   "languageModelEnabled" : true,
-  "languageModelID" : "sw-gpt-5",
+  "languageModelID" : "sw-gpt-4.1",
   "literalPunctuation" : false,
   "name" : "Context Chat ★",
   "pauseMediaPlayback" : false,

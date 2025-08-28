@@ -15,7 +15,7 @@
   "key" : "custom-SWJG",
   "language" : "auto",
   "languageModelEnabled" : true,
-  "languageModelID" : "sw-gpt-4.1-mini",
+  "languageModelID" : "sw-gpt-5-mini",
   "literalPunctuation" : false,
   "name" : "Dictate",
   "pauseMediaPlayback" : false,

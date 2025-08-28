@@ -5,9 +5,8 @@ import sys
 
 # Define tag mapping - single source of truth
 tag_mapping = {
-    "Style Requirements": "style-requirements",
-    "Banned Terms": "banned-terms",
-    "Banned Writing Structures": "banned-writing-structures"
+    "Style Guides": "style-guides",
+    "Banned Words": "banned-words"
     # Add more mappings here as needed
 }
 

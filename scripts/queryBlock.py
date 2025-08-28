@@ -13,9 +13,8 @@ arg = sys.argv[1]
 
 # Define a mapping of user-friendly names to XML tag names
 tag_mapping = {
-    "Style Requirements": "style-requirements",
-    "Banned Terms": "banned-terms",
-    "Banned Writing Structures": "banned-writing-structures"
+    "Style Guides": "style-guides",
+    "Banned Words": "banned-words"
     # Add more mappings here as needed
 }
 

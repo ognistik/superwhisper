@@ -30,5 +30,5 @@
   "type" : "custom",
   "useSystemAudio" : false,
   "version" : 2,
-  "voiceModelID" : "sw-ultra-cloud-v1-east"
+  "voiceModelID" : "nvidia_parakeet-v3_494MB"
 }

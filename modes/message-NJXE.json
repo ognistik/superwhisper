@@ -15,7 +15,7 @@
   "key" : "message-NJXE",
   "language" : "auto",
   "languageModelEnabled" : true,
-  "languageModelID" : "sw-gpt-4.1",
+  "languageModelID" : "sw-gpt-5",
   "literalPunctuation" : false,
   "name" : "Karabiner Formatter ★",
   "pauseMediaPlayback" : false,
@@ -34,5 +34,5 @@
   "type" : "custom",
   "useSystemAudio" : false,
   "version" : 1,
-  "voiceModelID" : "sw-ultra-cloud-v1-east"
+  "voiceModelID" : "nvidia_parakeet-v3_494MB"
 }

@@ -1,8 +1,8 @@
 {
   "modeKeys" : [
     "custom-SWJU",
-    "custom-IQVV",
     "custom-SWJG",
+    "custom-IQVV",
     "custom-YYQY",
     "custom-GAXH",
     "message",
@@ -95,11 +95,6 @@
       "id" : "084C6B89-550F-4FB2-99F0-FE6491781FCF",
       "original" : "Yunice",
       "with" : "Eunice"
-    },
-    {
-      "id" : "9D4E8A4C-16F5-4FC7-9644-62C2EC2BA01F",
-      "original" : "Yunis ",
-      "with" : "Eunice "
     }
   ],
   "vocabulary" : [

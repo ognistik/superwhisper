@@ -63,7 +63,7 @@
       "output" : "¡Hola! ¿Cómo estás? Espero que tengas un buen día."
     }
   ],
-  "realtimeOutput" : false,
+  "realtimeOutput" : true,
   "script" : "do shell script \"open -g 'kmtrigger:\/\/macro=SW%20Action_Action'\"\n\ndelay 0.2 --allows original clipboard to be restored with KM",
   "scriptEnabled" : false,
   "translateToEnglish" : false,

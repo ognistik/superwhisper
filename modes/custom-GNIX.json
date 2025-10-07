@@ -12,6 +12,7 @@
   "contextTemplate" : "Simplify the following text: \n\n",
   "description" : "",
   "diarize" : false,
+  "iconName" : "text.book.closed.fill",
   "key" : "custom-GNIX",
   "language" : "auto",
   "languageModelEnabled" : true,

@@ -13,7 +13,7 @@ if len(sys.argv) != 2:
 name_to_find = sys.argv[1]
 
 # Define paths
-modes_dir = '/Users/ognistik/Documents/superwhisper/modes'
+modes_dir = Path('~/Documents/superwhisper/modes').expanduser()
 
 # Find JSON file with matching name and open it directly
 found = False

@@ -2,12 +2,13 @@
   "modeKeys" : [
     "custom-SWJU",
     "custom-SWJG",
+    "custom",
     "custom-IQVV",
     "custom-YYQY",
     "custom-GAXH",
-    "message",
     "custom-GNIX",
     "helper",
+    "custom-EXKG",
     "message-NJXE"
   ],
   "replacements" : [
@@ -110,6 +111,21 @@
       "id" : "74D0E941-C1EB-462B-B529-8535274CC162",
       "original" : "Super Whisper",
       "with" : "Superwhisper"
+    },
+    {
+      "id" : "D89C686E-0C6F-4CC7-8CFF-3DEC9873267F",
+      "original" : "abilito",
+      "with" : "abuelito"
+    },
+    {
+      "id" : "B0BBA889-79F6-441A-9635-A49E67E82B9E",
+      "original" : "Yunis",
+      "with" : "Eunice"
+    },
+    {
+      "id" : "268E9C77-7A0B-4A21-8075-82D667430365",
+      "original" : "abolito",
+      "with" : "abuelito"
     }
   ],
   "vocabulary" : [

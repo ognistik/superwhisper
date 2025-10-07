@@ -12,6 +12,7 @@
   "contextTemplate" : "Use the copied text as context to complete this task.\n\nCopied text: ",
   "description" : "",
   "diarize" : false,
+  "iconName" : "pencil.and.outline",
   "key" : "message-NJXE",
   "language" : "auto",
   "languageModelEnabled" : true,

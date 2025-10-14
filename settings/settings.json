@@ -1,14 +1,13 @@
 {
   "modeKeys" : [
     "custom-SWJU",
-    "custom-SWJG",
     "custom",
+    "custom-SWJG",
     "custom-IQVV",
     "custom-YYQY",
     "custom-GAXH",
     "custom-GNIX",
     "helper",
-    "custom-EXKG",
     "message-NJXE"
   ],
   "replacements" : [
@@ -126,6 +125,26 @@
       "id" : "268E9C77-7A0B-4A21-8075-82D667430365",
       "original" : "abolito",
       "with" : "abuelito"
+    },
+    {
+      "id" : "95707D12-F7B3-48FA-9139-C38ED5FBA141",
+      "original" : " a bolita",
+      "with" : " abuelita"
+    },
+    {
+      "id" : "2141F4F8-6278-4DE8-B988-0E200D30E40C",
+      "original" : "Abolita",
+      "with" : "abuelita"
+    },
+    {
+      "id" : "589EF0DB-FC66-428B-9D04-49F08A040A22",
+      "original" : " Younis",
+      "with" : " Eunice"
+    },
+    {
+      "id" : "6D364D74-3969-476B-816C-A75A94142529",
+      "original" : " Sani",
+      "with" : " Sunny"
     }
   ],
   "vocabulary" : [

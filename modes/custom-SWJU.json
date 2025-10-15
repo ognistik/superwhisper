@@ -31,5 +31,5 @@
   "type" : "voice",
   "useSystemAudio" : false,
   "version" : 2,
-  "voiceModelID" : "sv-1"
+  "voiceModelID" : "nvidia_parakeet-v3_494MB"
 }

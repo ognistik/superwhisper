@@ -12,7 +12,7 @@
   "contextTemplate" : "Use the following clipboard context to complete the task:\n",
   "description" : "",
   "diarize" : false,
-  "iconName" : "text.bubble.fill",
+  "iconName" : "face.smiling",
   "key" : "custom-SWJG",
   "language" : "auto",
   "languageModelEnabled" : true,

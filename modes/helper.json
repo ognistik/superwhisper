@@ -16,7 +16,7 @@
   "key" : "helper",
   "language" : "auto",
   "languageModelEnabled" : true,
-  "languageModelID" : "sw-gpt-5-mini",
+  "languageModelID" : "sw-claude-4p5-sonnet",
   "literalPunctuation" : false,
   "name" : "Helper ★",
   "pauseMediaPlayback" : false,

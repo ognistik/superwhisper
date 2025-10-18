@@ -16,7 +16,7 @@
   "key" : "custom-GAXH",
   "language" : "auto",
   "languageModelEnabled" : true,
-  "languageModelID" : "sw-claude-4-sonnet",
+  "languageModelID" : "sw-claude-4p5-sonnet",
   "literalPunctuation" : false,
   "name" : "Helper",
   "pauseMediaPlayback" : false,

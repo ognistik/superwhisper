@@ -149,10 +149,24 @@
       "id" : "A54911BA-A348-4559-882D-BB54C6DCA903",
       "original" : "Sonia",
       "with" : "Sunny"
+    },
+    {
+      "id" : "D4BA7F06-5784-47B1-BE86-487B9582C783",
+      "original" : "Whisper Flow",
+      "with" : "Wispr Flow"
+    },
+    {
+      "id" : "88066703-24C4-4F2D-B8DB-D33FD14DD5A1",
+      "original" : "SuperWhisper",
+      "with" : "Superwhisper"
+    },
+    {
+      "id" : "A4FD98CA-2F42-4192-BBE0-FE1849461133",
+      "original" : "WhisperFlow",
+      "with" : "Wispr Flow"
     }
   ],
   "vocabulary" : [
-    "Superwhisper",
     "y también pueden ser palabras en Español",
     "abuelito",
     "abuis",

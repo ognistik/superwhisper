@@ -16,7 +16,7 @@
   "key" : "message-NJXE",
   "language" : "auto",
   "languageModelEnabled" : true,
-  "languageModelID" : "sw-gpt-5",
+  "languageModelID" : "sw-gpt-5.1",
   "literalPunctuation" : false,
   "name" : "Karabiner ★",
   "pauseMediaPlayback" : false,

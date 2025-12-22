@@ -3,7 +3,7 @@
 
   ],
   "activationSites" : [
-
+    "https:\/\/readwise.io\/dailyreview"
   ],
   "adjustOutputVolume" : false,
   "contextFromActiveApplication" : false,
@@ -16,7 +16,7 @@
   "key" : "custom-GNIX",
   "language" : "auto",
   "languageModelEnabled" : true,
-  "languageModelID" : "sw-gpt-5",
+  "languageModelID" : "sw-gpt-5.1",
   "literalPunctuation" : false,
   "name" : "Simplifier",
   "pauseMediaPlayback" : false,

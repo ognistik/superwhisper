@@ -1,4 +1,14 @@
 {
+  "favoriteModelIDs" : [
+    "sv-1",
+    "nvidia_parakeet-v3_494MB",
+    "sw-ultra-cloud-v1-east",
+    "large-v3-turbo",
+    "sw-claude-4p5-sonnet",
+    "sw-gpt-5.1",
+    "sl-1",
+    "965699BF-45CC-4B00-A1B4-5F5B7EB5B14E"
+  ],
   "modeKeys" : [
     "custom-SWJU",
     "custom",
@@ -8,8 +18,7 @@
     "custom-YYQY",
     "custom-GNIX",
     "message-NJXE",
-    "custom-JIEO",
-    "super"
+    "custom-JIEO"
   ],
   "replacements" : [
     {

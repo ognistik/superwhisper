@@ -31,5 +31,5 @@
   "type" : "custom",
   "useSystemAudio" : false,
   "version" : 1,
-  "voiceModelID" : "sv-1"
+  "voiceModelID" : "sw-ultra-cloud-v1-east"
 }

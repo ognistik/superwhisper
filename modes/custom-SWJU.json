@@ -11,12 +11,12 @@
   "contextFromSelection" : true,
   "contextTemplate" : "Use the copied text as context to complete this task.\n\nCopied text: ",
   "description" : "",
-  "diarize" : true,
+  "diarize" : false,
   "iconName" : "",
   "key" : "custom-SWJU",
   "language" : "auto",
   "languageModelEnabled" : false,
-  "languageModelID" : "sw-gpt-4o-mini",
+  "languageModelID" : "",
   "literalPunctuation" : false,
   "name" : "Voice",
   "pauseMediaPlayback" : true,
@@ -31,5 +31,5 @@
   "type" : "voice",
   "useSystemAudio" : false,
   "version" : 2,
-  "voiceModelID" : "sw-ultra-cloud-v1-east"
+  "voiceModelID" : "nvidia_parakeet-v3_494MB"
 }

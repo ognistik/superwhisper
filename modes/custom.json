@@ -16,7 +16,7 @@
   "key" : "custom",
   "language" : "auto",
   "languageModelEnabled" : true,
-  "languageModelID" : "0A0766FD-9684-472C-ABAF-70338A476F20",
+  "languageModelID" : "gemini-3-flash-preview",
   "literalPunctuation" : false,
   "name" : "Flex Q",
   "pauseMediaPlayback" : false,

@@ -19,7 +19,9 @@
     "custom-YYQY",
     "custom-GNIX",
     "message-NJXE",
-    "v3"
+    "v3",
+    "super-DGQL",
+    "custom-EHEW"
   ],
   "replacements" : [
     {
@@ -180,6 +182,11 @@
     {
       "id" : "92B26417-B65E-4B21-902B-0843D35D70FB",
       "original" : "SuperWisper",
+      "with" : "Superwhisper"
+    },
+    {
+      "id" : "4E1E4552-FDB2-41D9-9251-60DE32A197AB",
+      "original" : "Super Whisperer",
       "with" : "Superwhisper"
     }
   ],

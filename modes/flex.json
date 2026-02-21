@@ -16,7 +16,7 @@
   "key" : "flex",
   "language" : "auto",
   "languageModelEnabled" : true,
-  "languageModelID" : "sw-gpt-5.1",
+  "languageModelID" : "gpt-5.2",
   "literalPunctuation" : false,
   "name" : "Flex P",
   "pauseMediaPlayback" : false,
@@ -24,12 +24,12 @@
   "promptExamples" : [
 
   ],
-  "realtimeOutput" : false,
+  "realtimeOutput" : true,
   "script" : "",
   "scriptEnabled" : false,
   "translateToEnglish" : false,
   "type" : "custom",
   "useSystemAudio" : false,
   "version" : 1,
-  "voiceModelID" : "sw-ultra-cloud-v1-east"
+  "voiceModelID" : "sw-elevenlabs-scribe"
 }

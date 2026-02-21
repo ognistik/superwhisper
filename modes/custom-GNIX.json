@@ -16,7 +16,7 @@
   "key" : "custom-GNIX",
   "language" : "auto",
   "languageModelEnabled" : true,
-  "languageModelID" : "sw-gpt-5.1",
+  "languageModelID" : "gpt-5.2",
   "literalPunctuation" : false,
   "name" : "Simplifier",
   "pauseMediaPlayback" : false,

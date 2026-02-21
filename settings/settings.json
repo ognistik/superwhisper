@@ -5,10 +5,10 @@
     "sw-ultra-cloud-v1-east",
     "large-v3-turbo",
     "sw-claude-4p5-sonnet",
-    "sw-gpt-5.1",
-    "sl-1",
     "965699BF-45CC-4B00-A1B4-5F5B7EB5B14E",
-    "0A0766FD-9684-472C-ABAF-70338A476F20"
+    "0A0766FD-9684-472C-ABAF-70338A476F20",
+    "gemini-3-flash-preview",
+    "gpt-5.2"
   ],
   "modeKeys" : [
     "custom-SWJU",
@@ -19,9 +19,7 @@
     "custom-YYQY",
     "custom-GNIX",
     "message-NJXE",
-    "v3",
-    "super-DGQL",
-    "custom-EHEW"
+    "v3"
   ],
   "replacements" : [
     {
@@ -188,6 +186,11 @@
       "id" : "4E1E4552-FDB2-41D9-9251-60DE32A197AB",
       "original" : "Super Whisperer",
       "with" : "Superwhisper"
+    },
+    {
+      "id" : "32889481-8442-4CC8-B967-F26054B0C087",
+      "original" : "micro whisperer",
+      "with" : "Macrowhisper"
     }
   ],
   "vocabulary" : [

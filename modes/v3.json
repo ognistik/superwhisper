@@ -14,12 +14,12 @@
   "diarize" : false,
   "iconName" : "triangle.fill",
   "key" : "v3",
-  "language" : "en",
+  "language" : "auto",
   "languageModelEnabled" : false,
   "languageModelID" : "sw-gpt-5-mini",
   "literalPunctuation" : false,
-  "name" : "Voice v3",
-  "pauseMediaPlayback" : true,
+  "name" : "Voice X",
+  "pauseMediaPlayback" : false,
   "prompt" : "",
   "promptExamples" : [
 
@@ -31,5 +31,5 @@
   "type" : "voice",
   "useSystemAudio" : false,
   "version" : 1,
-  "voiceModelID" : "large-v3-turbo"
+  "voiceModelID" : "sw-ultra-cloud-v1-east"
 }

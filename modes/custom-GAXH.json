@@ -16,7 +16,7 @@
   "key" : "custom-GAXH",
   "language" : "auto",
   "languageModelEnabled" : true,
-  "languageModelID" : "sw-claude-4p5-sonnet",
+  "languageModelID" : "claude-sonnet-4-6",
   "literalPunctuation" : false,
   "name" : "Helper",
   "pauseMediaPlayback" : false,
@@ -24,7 +24,7 @@
   "promptExamples" : [
 
   ],
-  "realtimeOutput" : false,
+  "realtimeOutput" : true,
   "script" : "do shell script \"open -g 'kmtrigger:\/\/macro=SW%20Action_Action'\"\n\ndelay 0.2 --allows original clipboard to be restored with KM",
   "scriptEnabled" : false,
   "translateToEnglish" : false,

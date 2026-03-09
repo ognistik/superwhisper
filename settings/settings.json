@@ -1,14 +1,16 @@
 {
   "favoriteModelIDs" : [
-    "sv-1",
     "nvidia_parakeet-v3_494MB",
     "sw-ultra-cloud-v1-east",
-    "large-v3-turbo",
-    "sw-claude-4p5-sonnet",
     "965699BF-45CC-4B00-A1B4-5F5B7EB5B14E",
     "0A0766FD-9684-472C-ABAF-70338A476F20",
     "gemini-3-flash-preview",
-    "gpt-5.2"
+    "gpt-5.2",
+    "44311F51-1766-444A-81C8-048770576399",
+    "EE5D2626-D27F-4F55-9598-7E5AEFB61015",
+    "sw-elevenlabs-scribe",
+    "claude-sonnet-4-6",
+    "gpt-5.3-chat-latest"
   ],
   "modeKeys" : [
     "custom-SWJU",
@@ -190,6 +192,16 @@
     {
       "id" : "32889481-8442-4CC8-B967-F26054B0C087",
       "original" : "micro whisperer",
+      "with" : "Macrowhisper"
+    },
+    {
+      "id" : "A6577B04-C66A-4508-A8F9-4F22D2A40032",
+      "original" : "MicroWhisperer's",
+      "with" : "Macrowhisper's"
+    },
+    {
+      "id" : "60EC6D40-95C5-405D-9946-DC92DF9384D0",
+      "original" : "MacroWhisperer",
       "with" : "Macrowhisper"
     }
   ],

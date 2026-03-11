@@ -5,7 +5,7 @@
   "activationSites" : [
 
   ],
-  "autocapitalizeInsert" : false,
+  "autocapitalizeInsert" : true,
   "contextFromActiveApplication" : false,
   "contextFromClipboard" : false,
   "contextFromSelection" : true,

@@ -10,7 +10,8 @@
     "EE5D2626-D27F-4F55-9598-7E5AEFB61015",
     "sw-elevenlabs-scribe",
     "claude-sonnet-4-6",
-    "gpt-5.3-chat-latest"
+    "gpt-5.3-chat-latest",
+    "grok-4-1-fast-non-reasoning"
   ],
   "modeKeys" : [
     "custom-SWJU",
@@ -203,6 +204,11 @@
       "id" : "60EC6D40-95C5-405D-9946-DC92DF9384D0",
       "original" : "MacroWhisperer",
       "with" : "Macrowhisper"
+    },
+    {
+      "id" : "EF61AC99-9FFE-4C7A-9E4E-3C8C02655778",
+      "original" : "selective note",
+      "with" : "selected note"
     }
   ],
   "vocabulary" : [

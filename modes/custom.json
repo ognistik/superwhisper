@@ -15,8 +15,7 @@
   "iconName" : "theatermasks.fill",
   "key" : "custom",
   "language" : "auto",
-  "languageModelEnabled" : true,
-  "languageModelID" : "gemini-3-flash-preview",
+  "languageModelID" : "grok-4-1-fast-non-reasoning",
   "literalPunctuation" : false,
   "name" : "Flex Q",
   "playbackBehavior" : "keepPlaying",
@@ -31,5 +30,5 @@
   "type" : "custom",
   "useSystemAudio" : false,
   "version" : 1,
-  "voiceModelID" : "nvidia_parakeet-v3_494MB"
+  "voiceModelID" : "sw-elevenlabs-scribe"
 }

@@ -15,7 +15,7 @@
   "iconName" : "graduationcap.fill",
   "key" : "flex",
   "language" : "auto",
-  "languageModelID" : "gemini-3-flash-preview",
+  "languageModelID" : "gpt-5.2",
   "literalPunctuation" : false,
   "name" : "Flex P",
   "playbackBehavior" : "keepPlaying",

@@ -5,13 +5,15 @@
     "965699BF-45CC-4B00-A1B4-5F5B7EB5B14E",
     "0A0766FD-9684-472C-ABAF-70338A476F20",
     "gemini-3-flash-preview",
-    "gpt-5.2",
     "44311F51-1766-444A-81C8-048770576399",
     "EE5D2626-D27F-4F55-9598-7E5AEFB61015",
     "sw-elevenlabs-scribe",
     "claude-sonnet-4-6",
-    "gpt-5.3-chat-latest",
-    "grok-4-1-fast-non-reasoning"
+    "grok-4-1-fast-non-reasoning",
+    "vad-v2",
+    "speakerkit-coreml",
+    "s1-mini",
+    "gpt-5.2"
   ],
   "modeKeys" : [
     "custom-SWJU",
@@ -22,8 +24,7 @@
     "custom-YYQY",
     "custom-GNIX",
     "message-NJXE",
-    "v3",
-    "super"
+    "v3"
   ],
   "replacements" : [
     {

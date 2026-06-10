@@ -15,7 +15,7 @@
   "iconName" : "theatermasks.fill",
   "key" : "custom",
   "language" : "auto",
-  "languageModelID" : "grok-4-1-fast-non-reasoning",
+  "languageModelID" : "gemini-3-flash-preview",
   "literalPunctuation" : false,
   "name" : "Flex Q",
   "playbackBehavior" : "keepPlaying",

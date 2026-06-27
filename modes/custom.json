@@ -14,7 +14,7 @@
   "diarize" : false,
   "iconName" : "theatermasks.fill",
   "key" : "custom",
-  "language" : "auto",
+  "language" : "en",
   "languageModelID" : "gemini-3-flash-preview",
   "literalPunctuation" : false,
   "name" : "Flex Q",
@@ -23,12 +23,12 @@
   "promptExamples" : [
 
   ],
-  "realtimeOutput" : true,
+  "realtimeOutput" : false,
   "script" : "",
   "scriptEnabled" : false,
   "translateToEnglish" : false,
   "type" : "custom",
   "useSystemAudio" : false,
   "version" : 1,
-  "voiceModelID" : "sw-elevenlabs-scribe"
+  "voiceModelID" : "sv-1"
 }

@@ -14,7 +14,7 @@
   "diarize" : false,
   "iconName" : "",
   "key" : "custom-SWJU",
-  "language" : "auto",
+  "language" : "en",
   "languageModelID" : "",
   "literalPunctuation" : false,
   "name" : "Voice",
@@ -23,12 +23,12 @@
   "promptExamples" : [
 
   ],
-  "realtimeOutput" : true,
+  "realtimeOutput" : false,
   "script" : "do shell script \"open -g 'kmtrigger:\/\/macro=SW%20Action_Action'\"\n\ndelay 0.2 --allows original clipboard to be restored with KM",
   "scriptEnabled" : false,
   "translateToEnglish" : false,
   "type" : "voice",
   "useSystemAudio" : false,
   "version" : 2,
-  "voiceModelID" : "sw-elevenlabs-scribe"
+  "voiceModelID" : "cohere-transcribe-q4"
 }

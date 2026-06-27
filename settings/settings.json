@@ -13,7 +13,10 @@
     "vad-v2",
     "speakerkit-coreml",
     "s1-mini",
-    "gpt-5.2"
+    "gpt-5.2",
+    "cohere-transcribe-q4",
+    "s1-vocab-v1-160MB",
+    "s1-vocab-v2-160MB"
   ],
   "modeKeys" : [
     "custom-SWJU",
@@ -214,12 +217,12 @@
     }
   ],
   "vocabulary" : [
-    "y también pueden ser palabras en Español",
     "abuelito",
     "abuis",
     "Eunice",
     "Sunny",
     "Alter",
-    "Macrowhisper"
+    "Macrowhisper",
+    "opening"
   ]
 }

@@ -8,7 +8,6 @@
     "44311F51-1766-444A-81C8-048770576399",
     "EE5D2626-D27F-4F55-9598-7E5AEFB61015",
     "sw-elevenlabs-scribe",
-    "claude-sonnet-4-6",
     "grok-4-1-fast-non-reasoning",
     "vad-v2",
     "speakerkit-coreml",
@@ -16,7 +15,8 @@
     "gpt-5.2",
     "cohere-transcribe-q4",
     "s1-vocab-v1-160MB",
-    "s1-vocab-v2-160MB"
+    "s1-vocab-v2-160MB",
+    "claude-sonnet-5"
   ],
   "modeKeys" : [
     "custom-SWJU",
@@ -214,6 +214,11 @@
       "id" : "EF61AC99-9FFE-4C7A-9E4E-3C8C02655778",
       "original" : "selective note",
       "with" : "selected note"
+    },
+    {
+      "id" : "3B70CDB4-D6BB-4A13-A420-C2B317959B6F",
+      "original" : "SuperWhispers",
+      "with" : "Superwhisper's"
     }
   ],
   "vocabulary" : [

@@ -15,7 +15,7 @@
   "iconName" : "text.bubble.fill",
   "key" : "helper",
   "language" : "auto",
-  "languageModelID" : "claude-sonnet-4-6",
+  "languageModelID" : "claude-sonnet-5",
   "literalPunctuation" : false,
   "name" : "Helper ★",
   "playbackBehavior" : "keepPlaying",

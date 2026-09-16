@@ -14,17 +14,22 @@
     "claude-sonnet-5",
     "gemini-3.7-flash",
     "gpt-5.2",
-    "gemini-3-flash-preview"
+    "sl-1",
+    "sv-1",
+    "CD301942-3F1F-4858-A790-37F977F06A12",
+    "182A2770-FA77-4A3D-9EC7-EDE6A18433B1",
+    "gemini-3-flash-preview",
+    "1C4D660E-7436-48CD-9D08-D1D349779284"
   ],
   "modeKeys" : [
     "custom-SWJU",
+    "v3",
     "custom",
     "flex",
+    "custom-YYQY",
     "custom-GAXH",
     "helper",
-    "custom-YYQY",
     "custom-GNIX",
-    "v3",
     "message-NJXE"
   ],
   "replacements" : [

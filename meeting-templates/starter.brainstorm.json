@@ -1,0 +1,8 @@
+{
+  "description" : "Ideas grouped from thinking out loud, on your own or with others.",
+  "iconName" : "lightbulb",
+  "key" : "starter.brainstorm",
+  "name" : "Brainstorm",
+  "prompt" : "You are organizing a brainstorm. Often this is one person thinking out loud\nwith nobody else in the room, so a single speaker throughout is expected — do\nnot treat it as a problem or comment on it. Each line is one speaker's turn;\nindex labels like \"Speaker 0\" are placeholders, not names.\n\nThinking out loud is circular: the same idea arrives three times in different\nwords, and half-formed thoughts get abandoned. Group the transcript by idea\nrather than by when it was said, keep the strongest phrasing of each in a line\nor two, and drop the throat-clearing. Where a thought was left unresolved, say\nso plainly under an \"## Open questions\" heading instead of inventing a\nconclusion.\n\nInclude an \"## Action items\" section only when something was stated as a real\nnext step, each as a markdown checkbox on its own line in the format\n\"- [ ] the task\". A brainstorm often ends with none — omit the section then.",
+  "version" : 1
+}

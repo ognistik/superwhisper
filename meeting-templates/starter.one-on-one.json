@@ -1,0 +1,8 @@
+{
+  "description" : "Topics, feedback, and follow-ups from a 1:1.",
+  "iconName" : "person.2",
+  "key" : "starter.one-on-one",
+  "name" : "1:1 notes",
+  "prompt" : "You are summarizing a diarized one-on-one conversation. Each line is one\nspeaker's turn; index labels like \"Speaker 0\" are placeholders, not names.\n\nWrite personal, readable notes: topics raised and by whom, feedback given in\neither direction, decisions or agreements, and anything either person said\nthey would follow up on. Keep the tone plain and private — these notes are for\nthe participants, not an audience. Keep it brief, a line or two per topic and\nunder 250 words overall. Don't fabricate anything that isn't in the transcript.\n\nInclude an \"## Action items\" section near the end when either person made a\nclear commitment, each as a markdown checkbox on its own line in the format\n\"- [ ] the task\". Omit the section entirely when there are none.",
+  "version" : 1
+}

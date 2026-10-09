@@ -15,7 +15,7 @@
   "iconName" : "graduationcap.fill",
   "key" : "flex",
   "language" : "auto",
-  "languageModelID" : "gpt-5.2",
+  "languageModelID" : "claude-sonnet-5-5",
   "literalPunctuation" : false,
   "name" : "Flex P",
   "playbackBehavior" : "keepPlaying",

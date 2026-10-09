@@ -18,7 +18,7 @@
   "languageModelID" : "",
   "literalPunctuation" : false,
   "name" : "Voice",
-  "playbackBehavior" : "keepPlaying",
+  "playbackBehavior" : "muffle",
   "prompt" : "",
   "promptExamples" : [
 

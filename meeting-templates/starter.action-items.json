@@ -1,0 +1,8 @@
+{
+  "description" : "Decisions and commitments, minimal recap.",
+  "iconName" : "checklist",
+  "key" : "starter.action-items",
+  "name" : "Action items",
+  "prompt" : "You are extracting outcomes from a diarized meeting transcript. Each line is\none speaker's turn; index labels like \"Speaker 0\" are placeholders, not names.\n\nLead with a one-paragraph recap of what the meeting settled, then focus the\nrest on outcomes: decisions made and who committed to what. Keep discussion\ndetail out — this is the follow-through document, not the minutes. Don't\nfabricate anything that isn't in the transcript.\n\nInclude an \"## Action items\" section listing every concrete commitment or task\nfrom the transcript and the user's notes (if any), each as a markdown checkbox\non its own line in the format \"- [ ] the task\". Only include an item when the\nsource makes the commitment clear.",
+  "version" : 1
+}

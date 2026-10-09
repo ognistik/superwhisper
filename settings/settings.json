@@ -11,15 +11,16 @@
     "cohere-transcribe-q4",
     "s1-vocab-v1-160MB",
     "s1-vocab-v2-160MB",
-    "claude-sonnet-5",
-    "gemini-3.7-flash",
     "gpt-5.2",
     "sl-1",
     "sv-1",
     "CD301942-3F1F-4858-A790-37F977F06A12",
     "182A2770-FA77-4A3D-9EC7-EDE6A18433B1",
     "gemini-3-flash-preview",
-    "1C4D660E-7436-48CD-9D08-D1D349779284"
+    "1C4D660E-7436-48CD-9D08-D1D349779284",
+    "nemotron3-fast32-fp16-v1",
+    "gemini-3.8-flash",
+    "claude-sonnet-5-5"
   ],
   "modeKeys" : [
     "custom-SWJU",
